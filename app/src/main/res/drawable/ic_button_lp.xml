@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle in Dark Grey -->
+    <path
+        android:fillColor="#2B2C2C"
+        android:pathData="M54,54m-48,0a48,48 0 1,0 96,0a48,48 0 1,0 -96,0" />
+
+    <!-- Outer Ring for button accent -->
+    <path
+        android:strokeColor="#3E4040"
+        android:strokeWidth="2"
+        android:pathData="M54,54m-44,0a44,44 0 1,0 88,0a44,44 0 1,0 -88,0" />
+
+    <!-- Letter 'L' in Segoe Script / Cursive Cursive Style (Orange) -->
+    <path
+        android:fillColor="#FF8C00"
+        android:pathData="M32,32 C30,38 31,52 32,60 C32,65 33,70 38,70 C42,70 47,68 50,66 C51,65 52,67 50,68 C46,71 40,73 35,73 C30,73 28,68 28,61 C27,51 26,38 29,31 C30,29 32,29 32,32 Z" />
+
+    <!-- Letter 'P' in Segoe Script / Cursive Style (Orange) -->
+    <path
+        android:fillColor="#FF8C00"
+        android:pathData="M55,38 C57,37 62,36 67,36 C74,36 79,40 79,47 C79,54 73,59 65,59 C61,59 57,58 55,57 L51,75 C50,78 48,78 48,75 L54,39 C54,38 54,38 55,38 Z M56,41 L53,54 C55,55 58,56 62,56 C68,56 73,52 73,47 C73,42 69,39 64,39 C61,39 58,40 56,41 Z" />
+</vector>

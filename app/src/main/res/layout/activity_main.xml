@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/dark_grey">
+
+    <ImageView
+        android:id="@+id/main_button_lp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/ic_button_lp"
+        android:contentDescription="@string/app_name"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/calling_portal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/permission_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/grant_permission"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</LinearLayout>
