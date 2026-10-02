@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LP portail</string>
+    <string name="widget_name">LP portail</string>
+    <string name="calling_portal">Composition du numéro pour ouvrir le portail...</string>
+    <string name="permission_required">La permission de téléphoner est nécessaire pour composer le numéro du portail.</string>
+    <string name="grant_permission">Autoriser l\'appel</string>
+    <string name="call_failed">Impossible de passer l\'appel.</string>
+</resources>
