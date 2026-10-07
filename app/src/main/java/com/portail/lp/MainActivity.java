@@ -61,10 +61,10 @@ public class MainActivity extends AppCompatActivity {
             callIntent.setData(Uri.parse("tel:" + PORTAL_PHONE_NUMBER));
             startActivity(callIntent);
             Toast.makeText(this, R.string.calling_portal, Toast.LENGTH_SHORT).show();
+            finish();
         } catch (Exception e) {
             Toast.makeText(this, R.string.call_failed, Toast.LENGTH_SHORT).show();
-        } finally {
-            finishAndRemoveTask();
+            finish();
         }
     }
 
